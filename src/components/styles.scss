@@ -1,0 +1,40 @@
+table {
+    border-collapse:        collapse;
+    width:                  100%;
+    min-width:              max-content; // added to table
+    font-size:              16px;
+    border-radius:          1rem;
+    box-shadow:             0px 1px 3px rgba(0, 0, 0, 0.04);
+    overflow:               hidden;
+    border:                 1px solid #F2F4F6;
+}
+thead th {
+    padding:                2.5rem 2rem;
+    text-align:             left;
+    color:                  gray;
+    background:             white;
+    font-size:              16px;
+    line-height:            16px;
+    letter-spacing:         0.1px;
+}
+tfoot tr {
+    border-radius:          1rem;
+}
+
+th, td {
+    text-align:             left;
+}
+td {
+    padding:                2rem;
+    color:                  #303030;
+    letter-spacing: 0.71px;
+    line-height: 17px;
+    font-size: 14px;
+}
+
+tr:nth-of-type(2n-1){
+    background: rgba(196, 196, 196, 0.1);
+}
+tr {
+    background: white;
+}
